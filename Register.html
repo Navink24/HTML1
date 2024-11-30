@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+background-attachment: fixed;
+margin: 0;
+font-family:"popins",sans-serif;
+    }
+    form{
+        background-color: whitesmoke;
+        width: 50%;
+        height: 50%;
+        padding: 30px;
+        bottom: 20%;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        
+        
+    
+
+    }
+    .input{
+        border-radius: 5px;
+        font-size: 20px;
+        margin-top:10% ;
+        margin-bottom:30%;
+        margin-left: 30%;
+        margin-right: 20%;
+        padding:10px ;
+        outline: 0;
+        
+        
+    }
+    h2{
+        text-align: center;
+        color: crimson;
+    }
+    button{
+        background-color: crimson;
+        color: white;
+        border:1px solid crimson;
+        padding: 10px;
+        border-radius: 6px;
+        cursor: pointer;
+        margin: 20px 0px;
+        font-size: 20px;
+        width: 100%;
+    }
+</style>
+<body>
+    <div class="container">
+    
+    <div class="input">
+        <form>
+            
+            <h2>Register Form</h2>    
+        <label value="enter your name">Name </label>
+        <input type="text" value="enter your name"/>
+        <br>
+        <label>Gender</label>
+        <input type="radio">Male</input>
+        <input type="radio">Female</input>
+        <input type="radio">other</input>
+        <br>
+        <label> Date Of Birth</label>
+        <input type="date"/>
+        <br>
+        <label>Nationality</label>
+        <select>
+            <option>India</option>
+            <option>others</option>
+        </select>
+        <br>
+        <label>Regilion</label>
+        <select>
+            <option>Hidhu</option>
+            <option>chirstian</option>
+            <option>Musilm</option>
+            <option>others</option>
+        </select>
+        <br>
+        <lable>Department</lable>
+        <select>
+            <option>CSE</option>
+            <option>MECH</option>
+            <option>EEE</option>
+            <option>ECE</option>
+            <option>CYBER SECURITY</option>
+            <option>AIDS</option>
+        </select>
+        <br>
+        <label>E-mail ID</label>
+        <input type="email" value="enter your emai id"></input>
+        <br>
+        <label>Upload your Resume</label>
+        <input type="file"/>
+        <br>
+        <button> sumit
+    </button>
+    </form>
+    </div>
+    </div>
+    
+</body>
+</html>
